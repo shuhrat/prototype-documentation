@@ -1,4 +1,4 @@
 name: Primo DIY Documentation
 pygments: true
 markdown: kramdown
-baseurl: http://shuhrat.github.io/prototype-documentation/
+baseurl: https://shuhrat.github.io/prototype-documentation/
