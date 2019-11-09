@@ -3,7 +3,7 @@ layout: default
 title: Cubetto Prototype Documentation
 ---
 <div id="content" markdown="1">
-##0. What is this document
+## 0. What is this document
 
 ![primo play set]({{ site.baseurl }}images/photo/maker-guide.jpg)
 This document gathers and organizes all the information necessary to build a Primo Prototype.
@@ -55,7 +55,7 @@ The steps above, expanded:
 </div>
 <br>
 
-##1. What is Primo
+## 1. What is Primo
 
 ![primo play set]({{ site.baseurl }}images/photo/primo.jpg)
 
@@ -66,7 +66,7 @@ Primo is a tangible interface designed to introduce programming logic to little 
     </iframe> 
 </div>
 
-##2. Research
+## 2. Research
 
 Teaching programming to children is a widely debated topic. We are aware of a moderate number of solutions that try to accomplish this for children above the ages of 8. However, there aren't many of these solutions suitable for younger children, and there aren't any that work without a screen or without the need for literacy. We see an increasing number of Apps for tablets and computers that also work in combination with physical robots, but none of them are completely free from the pixel domain in the same way the Primo Play Set is.
 
@@ -113,9 +113,9 @@ A name was given to the little box, along with a personality and a similey face,
 
 ![cubetto]({{ site.baseurl }}images/photo/cubetto.jpg)
 
-##3. Getting Started
+## 3. Getting Started
 
-###3.1 The basics
+### 3.1 The basics
 
 Primo is composed of three parts: An Interface Board, Cubetto and a set of Instruction Blocks. Children interact with the Interface Board by placing Instruction Blocks into the holes, to create a sequence (A program) that Cubetto executes. 
 
@@ -125,9 +125,9 @@ The blocks are inserted into the holes of the Interface Board, where the resisto
 
 The brain of the prototype is made of two Arduino Boards, a UNO (A Leonardo or a Duemilanove will also do) for Cubetto, and a Mega for the Interface Board, where 16 analog inputs are required.
 
-###3.2 Electronics
+### 3.2 Electronics
 
-###Tools Required
+### Tools Required
 
 * Soldering Iron
 * Solder
@@ -136,7 +136,7 @@ The brain of the prototype is made of two Arduino Boards, a UNO (A Leonardo or a
 * Wood Glue
 * Copper Tape 5mm wide
 
-###Materials (prices in euro)
+### Materials (prices in euro)
 
 Cubetto ~ 88 €
 
@@ -173,21 +173,21 @@ Instruction Blocks ~ 4 €
 * 4 x 10K Ω Resistor : 0.04 € - [Mouser](http://uk.mouser.com/ProductDetail/Xicon/291-10K-RC/?qs=sGAEpiMZZMu61qfTUdNhG6xwTrVwTvbz8PPav3aExs8%3d)
 * 16 Magnets ø 4 h 3 : 3.5 € - [Supermagnete](http://www.supermagnete.ch/eng/S-04-03-N)
 
-###3.3 Energy
+### 3.3 Energy
 
 Cubetto and (optionally) the Interface Board, are battery powered. For the prototype you can use a LiPo battery or regular AA batteries, that's entirely up to you. We used both, LiPo batteries are good but you need extra equipment, if you are starting from scratch we recommend AA batteries. Just remember they run out very quickly, so the best would be to use rechargeable batteries, like NiMh.
 
-###3.4 Prototype Design
+### 3.4 Prototype Design
 
 The whole product is made out of laser cut wood, mainly 4 mm thick, with only one layer being 1mm thick. You can laser cut these parts using services like Ponoko, or in your local FabLab. The first prototype was laser cut inside [FabLab Lugano](http://fablab.supsi.ch/), while the product development advanced in [FabLab Torino](http://fablabtorino.org/), where part of Primo development team still resides.
 
 Building Cubetto and the Interface Board is a laborious but very simple procedure, their shells are basically boxes. The real complexity lays in the Instruction Blocks. They are a double 4mm wood layer with magnets and resistors soldered inside.
 
-##4. Prototype Making
+## 4. Prototype Making
 
-###[Download Source Files](files/primo-prototype-laser.zip)
+### [Download Source Files](files/primo-prototype-laser.zip)
 
-###4.1 Interface Board
+### 4.1 Interface Board
 
 To make the interface board you have to laser cut two files: interface-board-4mm.dxf and interface-board-1mm.dxf: the first one is for 4mm plywood and the second one for 1mm plywood. As you can see from the files, the parts are numbered, to ease the assembly process. The numbers are stored on a different layer, so you can easily remove them before lasering. We recommend adjusting the hole for the push button, based on the size of the button you wish to use or have.
 
@@ -267,7 +267,7 @@ Same for the red button: after part 14 has been painted, put something soft like
 
 ![photo]({{ site.baseurl }}images/illustrations/button-mechanics.jpg)
 
-###INSTRUCTION BLOCKS
+### INSTRUCTION BLOCKS
 
 This is one instruction block, exploded:
 
@@ -298,7 +298,7 @@ Fix the magnet with a drop of hot glue and before the glue gets cold, put the ri
 
 Finish your block by gluing the last layer, part number 1, on the top, then repeat the entire process for every single block :)
 
-###CUBETTO
+### CUBETTO
 
 Electronics:
 
@@ -368,8 +368,8 @@ Take the battery holder and solder the black and red cable to other 2 female con
 Now you can place the Arduino + Proto shield on top of the motors, plug all the headers on the shield and you have finished making Cubetto.
 </div>
 
-##Arduino
+## Arduino
 
-###[Download Arduino Files](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
+### [Download Arduino Files](https://github.com/primo-io/arduino-sketches/raw/master/primo-prototype-arduino.zip)
 
 Instructions in the sketch comments.
